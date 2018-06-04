@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white !important;
+}
+
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.7);
+}
+
+.backgroundImage {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../images/background.jpg");
+  	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+.container {
+	height: 100vh;
+}
+
+h1 {
+	padding-top: 0.8%;
+  font-size: 300%
+}
+
+.random {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.quote {
+  font-family: 'Great Vibes', cursive;
+}
+
+.height {
+	height: 450px !important;
+}
+
+p {
+	width: 95%;
+	margin: 10% auto;
+	font-family: Roboto, sans-serif;
+	font-size: 150%;
+	word-spacing: 1pt;
+
+}
+
+#btnTwitter {
+	text-decoration: none;
+	color: white;
+}
+
+.get-quote {
+	display: inline-block;
+	cursor: pointer;
+
+}
+
+
+.get-quote:focus {
+	outline: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+	.pt-5 {
+		padding-top: 1.5rem !important;
+	}
+}
